@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая работа «Подключение CSS к сайту»</title>
+    <div class="div" style="color: red;"> Практическая работа CSS </div>
+    <style>
+        div {
+color: green;
+width: 200px;
+height: 200px; background-color:  #000006;
+}
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ol>
+    <li>Порядок и приоритет стилей для одного тега: встроенные стили > внутренние стили > внешние стили.</li>
+    <li>Для изменения одного элемента на одной странице лучше использовать встроенные стили.</li>
+    <li>При разработке больших проектов лучше использовать внешние стили.</li>
+    <li>Недостатки каждого способа:</li>
+        <ul>Встроенные: сложно обслуживать, возможно дублирование стилей.</ul>
+        <ul>Внутренние: могут замедлить загрузку страницы.</ul>
+        <ul>Внешние: могут вызвать проблемы с кэшированием и производительностью.</ul>
+    </ol>
+    <table border="1">
+        <tbody>
+        <tr style="background-color: #000006; color: white;">
+            <th>Geographic Origin</th>
+            <th>Number of Students</th>
+        </tr>
+        <tr>
+            <td>California</td>
+            <td>2,943</td>
+        </tr>
+        <tr style="background-color: lightgrey; ">
+            <td>Other US</td>
+            <td>3,447</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="ramik">
+        <img class="ramik" src="36fcd70c-b1c6-45a3-80b7-38234b8359ed.png" alt="">
+        <p class="ramik">I AM RAMIK</p>
+    </div>
+</body>
+</html>
